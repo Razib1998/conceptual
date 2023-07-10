@@ -203,3 +203,24 @@ margin-bottom: 10px;
     gap: 15px;
     margin-top: 30px;
 }
+.footer-container{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.contact-data{
+    margin-bottom: 25px;
+    
+}
+.title-container{
+    margin-bottom: 40px;
+}
+.info{
+    padding: 3px;
+    
+}
