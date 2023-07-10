@@ -1,0 +1,205 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-container{
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+    
+    
+}
+
+.menus{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.banner-container{
+    height: 100vh;
+   background-image: url(images/background.jpg),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+   background-blend-mode: overlay;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+span{
+    color: red;
+}
+
+.banner-heading{
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+
+}
+.banner-discription{
+    color:white;
+    margin-top: 10px;
+    
+}
+.btn{
+    margin-top: 10px;
+    padding: 20px;
+    border: none;
+    background-color: white;
+    color: gray;
+}
+.bg-btn{
+    background-color: red;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    border: none;
+}
+.service-container{
+    height: 100vh;
+   background-image: url(images/footer-bg.png),linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+   background-blend-mode: overlay;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   padding: 20px;
+   color: white;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   
+    
+}
+.service-discription{
+    font-size: 15px;
+    margin: 10px;
+    
+}
+.list{
+    margin-left: 25px;
+}
+.service-heading{
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+.icon{
+    width: 90px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 5px;
+    padding: 20px;
+}
+.service-discription{
+    width: 50%;
+}
+.first-colume-box{
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+.author-container{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+}
+.profile-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 3px solid red;
+}
+.author-discription{
+    margin: 10px;
+}
+.author-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.appointment-container{
+    display: flex;
+    background-image: url(images/amazing-animal-beautiful-beautifull.jpg);
+    color: white;
+    gap: 20px;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding: 20px;
+    margin-top: -40px;
+    border-radius: 10px;
+    align-items: center;
+}
+.phone-icon{
+    width: 50px;
+    background-color: red;
+}
+.phone-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.appointment-button{
+    padding: 15px;
+    border-radius: 5px;
+    color:green;
+    border: none;
+    width: 100px;
+    margin: auto;
+}
+
+
+.discription-container{
+    justify-content: center;
+    align-items: center;
+}
+
+
+.blog-title{
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+.blog-discription{
+    font-size: 25px;
+    text-align: center;
+}
+.blog-container{
+    background-color: aqua;
+    margin-top: 20px;
+}
+.card{
+    height: 350px;
+    width: 250px;
+  box-shadow: 4px 8px 4px gray;
+  border-radius: 10px;
+  background-color: tomato;
+}
+.blog-image{
+    width: 100%;
+    border-radius: 10px;
+
+}
+.card-title{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
